@@ -4,7 +4,10 @@
   }
   .details-box{
     width: 90%;
-
+  }
+  .contact-info{
+    font-size: .9rem;
+    margin: 0;
   }
 }
 
@@ -28,6 +31,10 @@
   .details-info{
     width: 100%;
   }
+  .contact-info{
+    flex-direction: column;
+  }
+  
 }
 
 @media only screen and (max-width: 1050px){
@@ -39,6 +46,19 @@
   }
   .details-info{
     width: 80%;
+  }
+  .experince-info{
+    flex-direction: column;
+  }
+  .experince-box{
+    width: 90%;
+  }
+  .project-info{
+    flex-direction: column;
+  }
+  .project-card{
+    max-width: 500px;
+    max-height: 700px;
   }
 }
 
