@@ -18,11 +18,17 @@
     justify-content: center;
     position: fixed;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
   }
   .nav-links{
     flex-direction: column;
     justify-content: space-evenly;
+  }
+  .nav-links li a{
+    color: white;
+    
   }
   
   .navigation img{

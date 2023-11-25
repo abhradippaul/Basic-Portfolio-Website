@@ -348,7 +348,7 @@ p{
     max-width: 1200px;
     min-height: 100vh;
     margin: auto;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
